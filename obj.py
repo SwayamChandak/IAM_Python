@@ -10,6 +10,9 @@ class Dog(Animal):
     
 name=input("input name of your animal ")
 sound=input(f"input sound that {name} makes ")
+
 anim=Dog("rex")
 anim.speak()
-Animal(name).speak(sound)
+
+new_animal=Animal(name)
+new_animal.speak(sound)
